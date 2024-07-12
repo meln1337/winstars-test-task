@@ -44,6 +44,9 @@ git clone https://github.com/meln1337/winstars-test-task
 
 `main.py` was created for training the model
 
+> [!CAUTION]
+> To be able to train the model locally you need to download the whole dataset (the repo have only few of them)
+
 ```
 python main.py -lr=LEARNING_RATE 
                -n_epochs=EPOCHS_NUMBER 
