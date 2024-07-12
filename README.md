@@ -95,7 +95,7 @@ Losses
 
 Output masks on test images
 
-![validation results](/kaggle/input/airbus-ship-detection/output-images/test masks.png)
+![test masks](/kaggle/input/airbus-ship-detection/output-images/test masks.png)
 
 
 - Dice: 0.67961
