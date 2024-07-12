@@ -97,6 +97,7 @@ Output masks on test images
 
 ![validation results](/kaggle/input/airbus-ship-detection/output-images/test masks.png)
 
+
 - Dice: 0.67961
 - Jaccard: 0.62513
 - Kaggle public score: 0.67999
