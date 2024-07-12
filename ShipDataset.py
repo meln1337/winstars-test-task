@@ -23,8 +23,9 @@ class ShipDataset(Dataset):
 
         self.transforms = transforms
         self.posttransform = T.Compose([
-            T.ToImage(),
-            T.ToDtype(torch.float32, scale=True),
+            # T.ToImage(),
+            # T.ToDtype(torch.float32, scale=True),
+            T.ToTensor(),
             T.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD)  # use mean and std from ImageNet
         ])  # here we just converting to tensor and normalizing the image
 

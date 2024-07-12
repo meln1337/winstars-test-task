@@ -7,7 +7,7 @@ from ShipDataset import ShipDataset
 
 from transforms import DualCompose, HorizontalFlip, VerticalFlip, RandomCrop, CenterCrop
 
-ROOT_DIR = '/kaggle/input/airbus-ship-detection'
+ROOT_DIR = './kaggle/input/airbus-ship-detection'
 TRAIN_DIR = os.path.join(ROOT_DIR, 'train_v2')
 TEST_DIR = os.path.join(ROOT_DIR, 'test_v2')
 SEGMENTATION_FILENAME = os.path.join(ROOT_DIR, 'train_ship_segmentations_v2.csv')
