@@ -87,7 +87,7 @@ I trained a model based on UNet architecture with encoder of Resnet34 and got th
 
 Output masks on validation images:
 
-![validation results](/kaggle/input/airbus-ship-detection/output-images/validation masks.png)
+![validation results](/kaggle/input/airbus-ship-detection/output-images/validation-masks.png)
 
 Losses
 
@@ -95,8 +95,7 @@ Losses
 
 Output masks on test images
 
-![test masks](/kaggle/input/airbus-ship-detection/output-images/test masks.png)
-
+![validation results](/kaggle/input/airbus-ship-detection/output-images/test-masks.png)
 
 - Dice: 0.67961
 - Jaccard: 0.62513
